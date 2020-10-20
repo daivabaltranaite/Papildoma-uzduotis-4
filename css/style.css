@@ -1,0 +1,155 @@
+body {
+  font-family: 'Roboto';
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.logo-pavadinimas {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.company-name {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.foto {
+  width: 100%;
+  height: auto;
+}
+
+.isrykiavimas {
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.foto-rankos {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.foto-rankos img {
+  width: 48%;
+}
+
+.pastraipa-prie-foto {
+  width: 48%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
+
+.pavadinimas {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.produktu-nuotraukos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-foto {
+  width: 32%;
+}
+
+.citata {
+  text-align: center;
+  font-style: italic;
+  font-size: x-large;
+  margin-top: 30px;
+}
+
+.meniu a {
+  text-decoration: none;
+  color: grey;
+}
+
+.aprasymas {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.forma {
+  width: 60%;
+  margin: auto;
+}
+
+.paraste {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.meniu {
+  margin-bottom: 12px;
+}
+
+.nuotrauku-skyriklis {
+  margin-bottom: 25px;
+}
+
+.nuotrauku-skyriklis-2 {
+  margin-bottom: 45px;
+}
+
+.vidurine-nuotrauka {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+sup {
+  font-size: inherit;
+}
+
+.formos-laukai {
+  border-color: white;
+}
+
+.send-mygtukas {
+  padding: 10px 20px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
